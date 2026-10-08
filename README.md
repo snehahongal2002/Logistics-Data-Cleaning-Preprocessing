@@ -1,208 +1,128 @@
-**Logistics Data Cleaning and Preprocessing**
+# Week 2 – Data Collection, Cleaning and Preprocessing for Logistics Analysis
 
-Data Collection, Cleaning, and Preprocessing for Logistics Analysis
+## Project Overview
 
-📌 Project Overview
+This project demonstrates a Python-based data preprocessing pipeline for logistics analysis. It follows the methodology documented in the Week 2 internship report and simulates realistic shipment data containing common quality issues.
 
-This project focuses on the collection, cleaning, validation, and preprocessing of logistics data using Python. The objective is to transform raw logistics data into a clean, consistent, and analysis-ready dataset that can be used for exploratory data analysis, visualization, and data-driven decision-making.
+The workflow covers:
 
-Logistics operations generate large amounts of data related to shipments, delivery times, transportation costs, shipment quantities, distances, delivery status, and other operational factors. Raw datasets may contain missing values, duplicate records, inconsistent formats, incorrect data types, and potential outliers. Therefore, proper data preprocessing is an important step before performing any meaningful analysis.
+1. Data collection simulation
+2. Dataset profiling
+3. Missing-value detection and treatment
+4. Duplicate detection and removal
+5. Outlier detection using the Interquartile Range (IQR)
+6. Min-Max normalization
+7. Final validation
+8. Export of an analysis-ready dataset
 
-This project demonstrates a systematic data preprocessing workflow using Python and commonly used data analytics libraries.
+## Dataset
 
----
+The project uses a simulated educational logistics dataset rather than confidential company data.
 
-🎯 Objectives
+The dataset contains:
 
-The main objectives of this project are:
+- Shipment ID
+- Transport mode
+- Destination region
+- Quantity
+- Shipping cost
+- Delivery time
+- Shipment status
 
-- Collect and understand logistics-related data.
-- Inspect the structure and quality of the dataset.
-- Identify missing and inconsistent values.
-- Remove duplicate records.
-- Correct data types and formatting issues.
-- Detect and handle potential outliers.
-- Validate important logistics variables.
-- Standardize the dataset for analysis.
-- Generate a final clean dataset.
-- Prepare the data for future exploratory analysis and visualization.
+The raw data intentionally contains missing values, one duplicate, and extreme observations so the preprocessing process can be demonstrated reproducibly.
 
----
+## Repository Structure
 
-📊 Dataset
-
-The project uses a hypothetical logistics dataset containing information related to shipment and delivery operations.
-
-Example Variables
-
-Column| Description
-Shipment_ID| Unique identification number for each shipment
-Order_Date| Date on which the order was placed
-Delivery_Date| Date on which the shipment was delivered
-Origin| Shipment origin location
-Destination| Shipment destination location
-Shipment_Mode| Mode of transportation
-Distance_KM| Distance travelled in kilometers
-Shipment_Weight_KG| Weight of the shipment
-Delivery_Time_Days| Number of days taken for delivery
-Transportation_Cost| Cost associated with transportation
-Delivery_Status| Current status of the shipment
-
----
-
-🛠️ Technologies Used
-
-- Python
-- Pandas – Data manipulation and preprocessing
-- NumPy – Numerical operations
-- Matplotlib – Basic visualization
-- Jupyter Notebook – Data analysis and documentation
-
----
-
-🔄 Data Preprocessing Workflow
-
-The project follows the following workflow:
-
-1. Data Collection
-
-A logistics dataset is collected and loaded into the Python environment for analysis.
-
-2. Data Understanding
-
-The dataset is inspected using functions such as:
-
-- "head()"
-- "info()"
-- "describe()"
-- "shape"
-- "columns"
-
-This helps understand the structure, dimensions, and data types of the dataset.
-
-3. Missing Value Detection
-
-Missing values are identified using Pandas functions. Appropriate techniques are applied depending on the nature of each variable.
-
-4. Duplicate Removal
-
-Duplicate shipment records are identified and removed to prevent inaccurate analysis.
-
-5. Data Type Correction
-
-Columns such as order dates and delivery dates are converted into appropriate data types. Numerical variables are also checked and converted where necessary.
-
-6. Data Validation
-
-The dataset is checked for:
-
-- Negative distances
-- Negative transportation costs
-- Invalid shipment weights
-- Incorrect delivery durations
-- Invalid dates
-- Inconsistent categorical values
-
-7. Outlier Detection
-
-Potential outliers in numerical variables such as distance, shipment weight, delivery time, and transportation cost are identified using statistical techniques such as the Interquartile Range (IQR).
-
-8. Data Standardization
-
-Categorical values and formats are standardized to maintain consistency throughout the dataset.
-
-9. Final Dataset
-
-After preprocessing, the cleaned dataset is exported and prepared for further analysis and visualization.
-
----
-
-📁 Project Structure
-
-logistics-data-cleaning-preprocessing/
-│
+```text
+week2-logistics-data-preprocessing/
 ├── data/
 │   ├── raw/
-│   │   └── logistics_raw.csv
-│   │
-│   └── processed/
-│       └── logistics_cleaned.csv
-│
+│   │   └── logistics_data.csv
+│   ├── processed/
+│   │   └── cleaned_logistics_data.csv
+│   └── README.md
+├── docs/
 ├── notebooks/
-│   └── week2_data_cleaning_preprocessing.ipynb
-│
-├── src/
-│   └── data_preprocessing.py
-│
-├── outputs/
+│   └── Week_2_Logistics_Preprocessing.ipynb
+├── reports/
 │   └── preprocessing_summary.txt
-│
-├── README.md
+├── src/
+│   └── preprocess_logistics.py
+├── .gitignore
 ├── requirements.txt
-└── .gitignore
+└── README.md
+```
 
----
+## Technologies
 
-🧹 Key Data Cleaning Techniques
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Jupyter Notebook
 
-The following preprocessing techniques are implemented:
+## How to Run
 
-- Missing-value identification and treatment
-- Duplicate record removal
-- Data type conversion
-- Date formatting
-- Categorical value standardization
-- Numerical data validation
-- Outlier identification
-- Data consistency checks
-- Clean dataset generation
+### 1. Clone the repository
 
----
+```bash
+git clone https://github.com/YOUR_USERNAME/week2-logistics-data-preprocessing.git
+cd week2-logistics-data-preprocessing
+```
 
-📈 Expected Outcome
+### 2. Install dependencies
 
-The final output of this project is a clean and structured logistics dataset suitable for subsequent analytical tasks.
+```bash
+pip install -r requirements.txt
+```
 
-The processed dataset can be used to investigate questions such as:
+### 3. Run the preprocessing script
 
-- Which transportation modes have the highest delivery times?
-- What factors influence transportation costs?
-- Which routes have longer delivery durations?
-- Are heavier shipments associated with higher transportation costs?
-- Which locations experience delivery delays?
-- What patterns exist in shipment volumes?
+```bash
+python src/preprocess_logistics.py
+```
 
-These questions can be explored further during the next stage of the internship through exploratory data analysis and visualization.
+The script creates:
 
----
+`data/processed/cleaned_logistics_data.csv`
 
-🚀 Future Scope
+and:
 
-The cleaned dataset can be extended for:
+`reports/preprocessing_summary.txt`
 
-- Exploratory Data Analysis (EDA)
-- Logistics KPI analysis
-- Delivery performance analysis
-- Transportation cost analysis
-- Shipment trend analysis
-- Predictive analytics
-- Delivery-time prediction
-- Dashboard development using Power BI or Tableau
-- Machine learning applications in logistics
+### 4. Run the notebook
 
----
+```bash
+jupyter notebook notebooks/Week_2_Logistics_Preprocessing.ipynb
+```
 
-👩‍💻 Author
+## Methodology
 
-Sneha R Hongal
+### Missing values
+- Numerical fields: median imputation
+- Categorical fields: mode imputation
 
-M.Sc. Data Science
-Data Analytics & Logistics Internship Project
+Median was selected because logistics quantities, costs, and delivery times can be skewed by unusually large shipments or delays.
 
----
+### Duplicate records
+Exact duplicate rows are removed to prevent double counting.
 
-📌 Project Status
+### Outliers
+The IQR method is used:
 
-Completed – Week 2
+`Lower bound = Q1 - 1.5 × IQR`
 
-The project demonstrates the complete process of preparing raw logistics data for reliable analysis through systematic data cleaning and preprocessing.
+`Upper bound = Q3 + 1.5 × IQR`
+
+Potential outliers are flagged for business investigation. They are not automatically deleted because genuine exceptional logistics events can be analytically valuable.
+
+### Normalization
+Min-Max scaling transforms selected numerical variables to a 0–1 range. This is useful for distance-based methods and many machine-learning workflows.
+
+## Key Learning Outcome
+
+The project demonstrates that reliable logistics analytics depends on systematic data quality management. Proper preprocessing supports accurate shipment metrics, transportation-cost analysis, delivery-performance measurement, capacity planning, and future predictive analytics.
+
+## Disclaimer
+
+This is an educational simulation created for an internship task. It does not contain confidential company information or personally identifiable customer data.
