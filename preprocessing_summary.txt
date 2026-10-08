@@ -1,0 +1,10 @@
+WEEK 2 LOGISTICS PREPROCESSING SUMMARY
+=============================================
+Raw records: 121
+Duplicates detected: 1
+Missing cells before cleaning: 8
+Records after duplicate removal: 120
+Missing cells after cleaning: 0
+Duplicate rows after cleaning: 0
+
+Potential outliers are detected using IQR and should be investigated rather than automatically deleted.
