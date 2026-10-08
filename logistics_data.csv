@@ -1,0 +1,122 @@
+Shipment_ID,Transport_Mode,Destination_Region,Quantity,Shipping_Cost,Delivery_Time,Status
+SHP0001,Road,Central,227.0,1106.44,4.5,Delivered
+SHP0002,Road,Central,220.0,951.74,4.5,Delivered
+SHP0003,Air,North,210.0,1297.87,1.8,Delivered
+SHP0004,Air,North,213.0,1416.24,3.1,Delivered
+SHP0005,Road,West,178.0,1029.0,6.1,Delayed
+SHP0006,Air,Central,384.0,1349.81,8.0,Delivered
+SHP0007,Road,South,232.0,1122.69,4.2,Delivered
+SHP0008,Air,South,,1219.13,6.3,Delayed
+SHP0009,Rail,Central,217.0,1591.66,9.5,Delayed
+SHP0010,Rail,East,243.0,1570.83,7.0,Delivered
+SHP0011,Rail,Central,243.0,1214.94,5.3,Delayed
+SHP0012,Sea,South,188.0,1485.05,7.5,In Transit
+SHP0013,,Central,335.0,2050.16,7.3,In Transit
+SHP0014,Road,North,39.0,692.99,10.0,Delivered
+SHP0015,Sea,Central,128.0,783.24,2.3,In Transit
+SHP0016,Road,Central,4.0,326.94,3.8,In Transit
+SHP0017,Road,East,249.0,1148.68,3.0,Delayed
+SHP0018,Rail,South,248.0,1263.54,2.4,In Transit
+SHP0019,Road,Central,248.0,1790.06,2.3,In Transit
+SHP0020,Air,South,196.0,1532.2,4.9,Delivered
+SHP0020,Air,South,196.0,1532.2,4.9,Delivered
+SHP0021,Road,Central,246.0,1298.95,7.4,Delivered
+SHP0022,Sea,South,310.0,1675.57,6.4,Delayed
+SHP0023,Air,West,244.0,1636.25,1.7,Delayed
+SHP0024,Rail,Central,175.0,701.84,5.3,Delivered
+SHP0025,Road,East,,1180.95,4.9,Delivered
+SHP0026,Sea,South,167.0,1241.27,4.7,In Transit
+SHP0027,Sea,West,260.0,1166.84,3.6,In Transit
+SHP0028,Road,West,259.0,1798.07,4.3,Delayed
+SHP0029,Sea,South,144.0,827.45,8.2,In Transit
+SHP0030,Road,North,280.0,1762.23,6.8,Delayed
+SHP0031,Rail,South,411.0,3071.72,4.8,In Transit
+SHP0032,Sea,North,177.0,937.63,4.9,In Transit
+SHP0033,Sea,South,224.0,1358.53,8.3,Delivered
+SHP0034,Air,North,1800.0,1313.96,9.8,Delivered
+SHP0035,Road,South,148.0,1132.17,3.6,Delivered
+SHP0036,Rail,Central,128.0,733.3,3.1,Delayed
+SHP0037,Air,East,276.0,1826.16,5.0,Delivered
+SHP0038,Air,West,202.0,970.32,3.3,In Transit
+SHP0039,Road,North,430.0,1546.72,2.8,Delayed
+SHP0040,,East,256.0,2176.72,6.3,In Transit
+SHP0041,Road,Central,333.0,2152.98,8.0,In Transit
+SHP0042,Road,Central,278.0,1869.1,4.4,Delivered
+SHP0043,Air,Central,222.0,1423.74,7.5,In Transit
+SHP0044,Air,North,238.0,1198.89,9.2,Delivered
+SHP0045,Sea,Central,216.0,1569.68,5.7,Delayed
+SHP0046,Rail,Central,228.0,1345.91,4.9,Delivered
+SHP0047,Air,East,300.0,1131.97,2.5,Delivered
+SHP0048,Sea,Central,289.0,1192.08,4.0,Delayed
+SHP0049,Rail,West,357.0,2680.05,8.6,Delivered
+SHP0050,Rail,East,327.0,2096.47,8.9,Delivered
+SHP0051,Rail,South,250.0,2078.3,3.9,In Transit
+SHP0052,Rail,West,,1150.8,7.8,In Transit
+SHP0053,Sea,Central,233.0,1607.34,5.5,In Transit
+SHP0054,Air,North,281.0,1923.53,4.4,Delivered
+SHP0055,Road,West,171.0,1374.51,3.7,Delayed
+SHP0056,Rail,East,249.0,1489.98,5.4,In Transit
+SHP0057,Road,East,360.0,1624.4,6.1,Delayed
+SHP0058,Rail,South,206.0,1179.52,6.7,In Transit
+SHP0059,Air,West,195.0,1305.02,3.1,Delayed
+SHP0060,Air,West,278.0,1531.96,3.3,In Transit
+SHP0061,Rail,North,181.0,1502.47,5.3,In Transit
+SHP0062,Rail,East,113.0,1149.62,4.5,Delivered
+SHP0063,Road,West,257.0,1445.93,3.7,In Transit
+SHP0064,Sea,South,328.0,2011.05,3.1,Delivered
+SHP0065,Road,West,234.0,1845.07,4.6,Delivered
+SHP0066,Rail,North,341.0,1630.31,9.3,In Transit
+SHP0067,Air,West,307.0,1820.06,6.5,Delayed
+SHP0068,Sea,South,315.0,1944.59,1.0,Delayed
+SHP0069,Air,Central,303.0,2207.18,3.1,In Transit
+SHP0070,Air,East,189.0,900.69,3.7,In Transit
+SHP0071,Rail,South,268.0,1207.3,4.3,Delivered
+SHP0072,Sea,West,170.0,15000.0,5.7,Delayed
+SHP0073,Sea,North,256.0,1946.48,4.7,In Transit
+SHP0074,Rail,West,213.0,1892.16,6.7,Delivered
+SHP0075,Sea,South,225.0,1457.55,7.1,In Transit
+SHP0076,Road,North,461.0,2627.97,2.1,Delayed
+SHP0077,Air,South,77.0,659.07,6.5,In Transit
+SHP0078,,East,169.0,1313.46,7.8,Delivered
+SHP0079,Rail,North,92.0,1071.92,5.4,Delayed
+SHP0080,Rail,South,261.0,1551.43,4.9,Delivered
+SHP0081,Air,East,196.0,1621.18,5.0,Delivered
+SHP0082,Rail,East,57.0,1023.99,1.6,Delivered
+SHP0083,Sea,West,57.0,1073.69,2.6,Delayed
+SHP0084,Air,Central,,1809.86,7.3,Delivered
+SHP0085,Air,North,273.0,1204.89,2.3,Delayed
+SHP0086,Sea,East,231.0,1395.74,4.5,Delayed
+SHP0087,Air,Central,317.0,1209.43,3.4,Delayed
+SHP0088,Air,South,255.0,1902.45,2.6,Delivered
+SHP0089,Sea,East,222.0,1669.03,7.0,Delivered
+SHP0090,Air,East,160.0,1105.92,4.9,In Transit
+SHP0091,Rail,North,342.0,1320.78,2.7,Delivered
+SHP0092,Sea,West,220.0,1738.15,2.5,Delivered
+SHP0093,Air,West,293.0,1779.15,5.6,Delayed
+SHP0094,Sea,East,147.0,1176.26,4.4,In Transit
+SHP0095,Rail,South,239.0,1010.83,5.8,Delivered
+SHP0096,Air,North,234.0,1707.0,32.0,Delivered
+SHP0097,Rail,East,215.0,1382.27,6.6,Delivered
+SHP0098,Sea,North,352.0,1938.99,4.4,Delivered
+SHP0099,Road,East,149.0,938.32,3.8,In Transit
+SHP0100,Road,South,264.0,1628.59,5.3,Delivered
+SHP0101,Sea,Central,322.0,1188.91,1.0,Delayed
+SHP0102,Sea,East,,1550.53,3.4,Delayed
+SHP0103,Road,South,316.0,1984.63,4.7,Delayed
+SHP0104,Road,South,272.0,1097.81,7.7,Delivered
+SHP0105,Air,East,124.0,771.53,6.5,Delayed
+SHP0106,Rail,West,261.0,1193.97,4.2,Delivered
+SHP0107,Road,North,115.0,1391.61,4.0,Delivered
+SHP0108,Sea,North,272.0,2181.39,2.2,In Transit
+SHP0109,Sea,West,187.0,1591.26,1.9,Delivered
+SHP0110,Road,North,85.0,1050.75,2.4,Delivered
+SHP0111,Air,Central,406.0,2499.83,3.9,Delivered
+SHP0112,Air,South,244.0,1496.53,3.6,Delayed
+SHP0113,Sea,East,88.0,1056.48,6.2,In Transit
+SHP0114,Air,West,154.0,1201.97,1.3,Delayed
+SHP0115,Sea,Central,277.0,1168.25,5.0,Delivered
+SHP0116,Air,Central,178.0,1026.0,2.7,In Transit
+SHP0117,Air,West,132.0,987.58,2.4,Delayed
+SHP0118,Rail,East,218.0,1696.3,4.8,Delayed
+SHP0119,Road,West,331.0,1727.16,5.0,Delivered
+SHP0120,Air,West,208.0,1570.09,3.9,In Transit
